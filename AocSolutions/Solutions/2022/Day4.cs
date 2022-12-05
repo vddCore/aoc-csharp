@@ -9,7 +9,7 @@ namespace AocSolutions.Solutions._2022
         {
         }
 
-        public override int? Part1()
+        public override object? Part1()
         {
             var total = 0;
 
@@ -24,7 +24,7 @@ namespace AocSolutions.Solutions._2022
             return total;
         }
 
-        public override int? Part2()
+        public override object? Part2()
         {
             var total = 0;
 

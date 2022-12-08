@@ -33,11 +33,12 @@ namespace AocSolutions.Solutions._2022
 
             public Directory AddDirectory(string name)
             {
-                var ret = new Directory()
+                var ret = new Directory
                 {
                     Parent = this,
                     Name = name
                 };
+                
                 Children.Add(name, ret);
                 return ret;
             }

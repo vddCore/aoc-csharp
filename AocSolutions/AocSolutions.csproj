@@ -54,6 +54,15 @@
       <Compile Update="Solutions\2022\Day7.File.cs">
         <DependentUpon>Day7.cs</DependentUpon>
       </Compile>
+      <None Update="Data\2022\Day8">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <Compile Update="Solutions\2022\Day8.Tree.cs">
+        <DependentUpon>Day8.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Solutions\2022\Day8.Grid.cs">
+        <DependentUpon>Day8.cs</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>

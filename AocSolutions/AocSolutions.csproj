@@ -39,6 +39,21 @@
       <None Update="Data\2022\Day5">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+      <None Update="Data\2022\Day6">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\2022\Day7">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <Compile Update="Solutions\2022\Day7.Node.cs">
+        <DependentUpon>Day7.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Solutions\2022\Day7.Directory.cs">
+        <DependentUpon>Day7.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Solutions\2022\Day7.File.cs">
+        <DependentUpon>Day7.cs</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>

@@ -9,11 +9,11 @@ namespace AocSolutions.Solutions._2022
         {
         }
 
-        public override int? Part1()
+        public override object? Part1()
             => ComputeElfCalories()
                 .Max();
 
-        public override int? Part2()
+        public override object? Part2()
             => ComputeElfCalories()
                 .OrderByDescending(x => x)
                 .Take(3)

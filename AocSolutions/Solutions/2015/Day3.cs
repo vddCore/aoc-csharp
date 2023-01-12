@@ -9,7 +9,7 @@ namespace AocSolutions.Solutions._2015
         {
         }
 
-        public override int? Part1()
+        public override object? Part1()
         {
             int x = 0, y = 0;
             var map = new Dictionary<string, int>();
@@ -20,7 +20,7 @@ namespace AocSolutions.Solutions._2015
             return map.Count();
         }
         
-        public override int? Part2()
+        public override object? Part2()
         {
             int sx = 0, sy = 0;
             int rx = 0, ry = 0;

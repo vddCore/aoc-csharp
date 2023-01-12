@@ -12,7 +12,7 @@ namespace AocSolutions.Solutions._2022
         {
         }
 
-        public override int? Part1()
+        public override object? Part1()
         {
             var sum = 0;
 
@@ -28,7 +28,7 @@ namespace AocSolutions.Solutions._2022
             return sum;
         }
 
-        public override int? Part2()
+        public override object? Part2()
         {
             var sum = 0;
             var chunks = Lines.Chunk(3);

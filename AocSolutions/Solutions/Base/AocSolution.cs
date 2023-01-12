@@ -13,12 +13,12 @@ namespace AocSolutions.Solutions.Base
             Lines = Data.Split('\n');
         }
 
-        public virtual int? Part1()
+        public virtual object? Part1()
         {
             return null;
         }
 
-        public virtual int? Part2()
+        public virtual object? Part2()
         {
             return null;
         }

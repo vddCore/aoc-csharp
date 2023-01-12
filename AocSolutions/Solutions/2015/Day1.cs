@@ -9,10 +9,10 @@ namespace AocSolutions.Solutions._2015
         {
         }
 
-        public override int? Part1()
+        public override object? Part1()
             => Data.Count(c => c == '(') - Data.Count(c => c == ')');
 
-        public override int? Part2()
+        public override object? Part2()
         {
             for (int i = 0, j = 0; i < Data.Length; i++)
             {
